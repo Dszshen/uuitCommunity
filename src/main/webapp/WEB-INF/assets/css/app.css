@@ -1,0 +1,56 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.clear-both {
+  display: block;
+  content: "";
+  clear: both;
+}
+.app-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.app-header {
+  width: 100%;
+  padding: 0;
+  background-color: #232121;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.app-header .app-header-nav {
+  width: 980px;
+  margin: 0 auto;
+}
+.app-header .app-header-nav:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.app-header .logo {
+  margin: 15px 0;
+  float: left;
+  text-align: left;
+  font-size: 30px;
+  width: 200px;
+}
+.app-header .app-nav {
+  margin-top: 22px;
+  float: left;
+}
+.app-header .app-nav ul > li {
+  float: left;
+  width: 120px;
+  text-align: center;
+  height: 40px;
+  font-size: 16px;
+  color: #999;
+}
+.app-header .app-nav ul:after {
+  display: block;
+  content: "";
+  clear: both;
+}
